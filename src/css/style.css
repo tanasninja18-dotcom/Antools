@@ -1,0 +1,71 @@
+:root{
+	--bg:#0f1720;
+	--panel:#121619;
+	--muted:#9aa3aa;
+	--text:#e6eef2;
+	--accent:#ff7a2d;
+	--accent-2:#ff6a3d;
+	--container:1200px;
+}
+
+html,body{
+	height:100%;
+}
+body{
+	font-family: 'Poppins', 'Roboto', system-ui, sans-serif;
+	background:var(--bg);
+	color:var(--text);
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+.container{
+    max-width:var(--container);margin:0 auto;padding:0 20px
+}
+/* BTN */
+.actions {
+    display: flex;
+    gap: 8px; 
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    color: #5a6369; 
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-btn:hover {
+    color: #ffffff; 
+    transform: scale(1.1);
+}
+
+.link {
+    background: none;
+    border: none;
+    color: #9da4a7;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+.action-icon {
+    width: 20px; 
+    height: 20px;
+    opacity: 0.6; 
+    transition: 0.2s;
+}
+
+.icon-btn:hover .action-icon {
+    opacity: 1;   
+}
