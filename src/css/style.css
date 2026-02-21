@@ -191,8 +191,13 @@ body{
     transition: transform 0.2s ease;
 }
 
+.arrow {
+    transition: scale 0.3s, translate 0.3s;
+    translate: 0 -50%;
+}
+
 .arrow:hover {
-    transform: translateY(-50%) scale(1.1);
+    scale: 1.1;
 }
 
 .arrow-left {
