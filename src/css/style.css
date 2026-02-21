@@ -118,28 +118,26 @@ body{
     align-items: center;
     gap: 80px;
     width: 100%;
-    padding: 0 60px; /* Отступы, чтобы текст не налезал на стрелки */
+    padding: 0 60px; 
 }
 
-/* Стилизация фото */
 .testimonial-img-wrapper {
     position: relative;
     flex-shrink: 0;
 }
 
 .main-img {
-    width: 380px; /* Размер можно адаптировать */
+    width: 380px; 
     border-radius: 20px;
     display: block;
 }
 
-/* Карточка с именем (плашка снизу фото) */
 .name-card {
     position: absolute;
     bottom: 30px;
     right: -30px;
     background: rgba(40, 48, 54, 0.7);
-    backdrop-filter: blur(12px); /* Эффект матового стекла */
+    backdrop-filter: blur(12px);
     padding: 24px 32px;
     border-radius: 12px;
     border-left: 3px solid rgba(255, 255, 255, 0.1);
@@ -158,7 +156,6 @@ body{
     font-size: 14px;
 }
 
-/* Текст отзыва */
 .testimonial-content {
     max-width: 520px;
     font-size: 18px;
@@ -167,7 +164,6 @@ body{
     position: relative;
 }
 
-/* Декоративная кавычка через псевдоэлемент */
 .testimonial-content::before {
     content: "“";
     position: absolute;
@@ -179,7 +175,7 @@ body{
     pointer-events: none;
 }
 
-/* Стрелки навигации */
+/* Navigation arrows */
 .arrow {
     position: absolute;
     top: 50%;
@@ -339,5 +335,5 @@ body{
 }
 
 .footer-col ul li a:hover {
-    color: #FF6E30; /* Оранжевый акцент при наведении */
+    color: #FF6E30; 
 }
